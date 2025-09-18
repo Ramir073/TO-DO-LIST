@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My To Do List</h1>
+
+      <div class="input-container">
+        <input type="text" id="inputBox" placeholder="Add a new to do..." />
+        <select id="prioritySelect" aria-label="Select task priority">
+          <option value="Low" selected>Low Priority</option>
+          <option value="Medium">Medium Priority</option>
+          <option value="High">High Priority</option>
+        </select>
+        <input type="date" id="dueDate" aria-label="Select due date" />
+        <button id="addBtn">Add</button>
+      </div>
+
+      <div class="filters-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search tasks..."
+          aria-label="Search tasks"
+        />
+        <div class="filter-buttons">
+          <button data-filter="all" class="filter-btn active">All</button>
+          <button data-filter="active" class="filter-btn">Active</button>
+          <button data-filter="completed" class="filter-btn">Completed</button>
+        </div>
+        <button id="clearCompletedBtn">Clear Completed</button>
+      </div>
+
+      <ul id="todoList" class="todoList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
