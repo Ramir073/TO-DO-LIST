@@ -20,5 +20,5 @@ A To Do List Website application using HTML, CSS, JAVASCRIPT
 #### Acknowledgements
 
 This project was inspired by an open-source To-Do List app I found on GitHub:  
-[Original Repository](https://github.com/username/original-repo)  
+[Original Repository](https://github.com/CodeTraversal/JavaScript-Projects)  
 I extended and refactored the project by adding new features such as task priorities, due dates, real-time search, filters, localStorage persistence, responsive design, and improved UI/UX.
